@@ -1,3 +1,3 @@
 #!/bin/bash 
 
-echo "From sh"
+echo 'From sh'
