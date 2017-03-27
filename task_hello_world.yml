@@ -7,7 +7,4 @@ image_resource:
 
 
 run:
-  path: ../
-  path: echo 
-  args: ["hi"]
-  path: pwd
+  path: resource-test/task_hello_world.yml
