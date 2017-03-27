@@ -8,6 +8,7 @@ image_resource:
 
 run:
   path: ../
-  path: pwd
+  
   path: echo 
   args: ["hi"]
+  path: pwd
