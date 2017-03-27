@@ -7,5 +7,5 @@ image_resource:
 
 
 run:
-  path1: ../
-  path2:pwd
+  path: ../
+  path: pwd
