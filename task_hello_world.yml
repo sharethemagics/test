@@ -6,5 +6,5 @@ image_resource:
   source: {repository: busybox}
 
 run:
-  path: /test/t.sh
+  path: ../test/t.sh
   
