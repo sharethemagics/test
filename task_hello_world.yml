@@ -7,4 +7,5 @@ image_resource:
 
 
 run:
-  path: ./test/t.sh
+  path: ../
+  pwd
