@@ -1,0 +1,11 @@
+---
+image_resource:
+  type: docker-image
+inputs:
+  - name: code-repo
+outputs:
+  - name: test
+platform: linux
+run:
+  dir: code-repo
+   path: ./gradle_test.sh
