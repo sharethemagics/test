@@ -6,9 +6,9 @@ image_resource:
   source: {repository: ubuntu, tag: "14.04"}
 
 inputs:
-- name: resource-git
+- name: resource-test
 
 
 run:
- - path: resource-git/testrun.sh
+ - path: resource-test/testrun.sh
 
