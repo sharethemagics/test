@@ -9,6 +9,12 @@ inputs:
 - name: resource-test
 
 
-run:
- - path: ./resource-test/testrun.sh
 
+
+resources:
+- name: resource-test
+  type: git
+  source:
+    uri: https://github.com/sharethemagics/test.git
+run:
+ - path: resource-test/testrun.sh
