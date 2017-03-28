@@ -10,5 +10,5 @@ inputs:
 
 
 run:
- - path: resource-test/testrun.sh
+ - path: ./resource-test/testrun.sh
 
