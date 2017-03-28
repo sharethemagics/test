@@ -1,12 +1,12 @@
 ---
+platform: linux
+
 image_resource:
   type: docker-image
-   source: {repository: busybox}
+  source: {repository: busybox}
 inputs:
   - name: code-repo
-outputs:
-  - name: test
-platform: linux
+
 run:
   dir: code-repo
    path: ./gradle_test.sh
