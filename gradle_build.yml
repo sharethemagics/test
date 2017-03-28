@@ -1,6 +1,7 @@
 ---
 image_resource:
   type: docker-image
+   source: {repository: busybox}
 inputs:
   - name: code-repo
 outputs:
