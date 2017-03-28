@@ -10,5 +10,5 @@ inputs:
 
 
 run:
-  path: resource-git/t.sh
+  path: resource-git/testrun.sh
 
