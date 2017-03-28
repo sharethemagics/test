@@ -5,11 +5,6 @@ image_resource:
   type: docker-image
   source: {repository: ubuntu, tag: "14.04"}
 
-inputs:
-- name: resource-test
-
-
-
 
 resources:
 - name: resource-test
