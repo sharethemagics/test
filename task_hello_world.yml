@@ -9,4 +9,4 @@ inputs:
 
 run:
   dir: code-repo
-  path: ./resource-test/testrun.sh
+  path: testrun.sh
